@@ -5,12 +5,9 @@ from scipy.stats import norm
 from scipy.stats import t
 
 
-chat_id = 1444511418 # Ваш chat ID, не меняйте название переменной
+chat_id = 1444511418 
 
 def solution(p: float, x: np.array) -> tuple:
-    # Измените код этой функции
-    # Это будет вашим решением
-    # Не меняйте название функции и её аргументы
     n = len(x)
     alpha = 1 - p
     loc = 2 * np.mean(x) / 26**2
